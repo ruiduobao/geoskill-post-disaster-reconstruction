@@ -2,8 +2,8 @@
   "skill": "post-disaster-reconstruction",
   "skill_version": "1.0.0",
   "command": "post-disaster-reconstruction --bbox 116 39 117 40 --synthetic --output-dir ./_test_cli_out --quiet",
-  "started_at": "2026-08-03T10:33:09.051524Z",
-  "finished_at": "2026-08-03T10:33:09.175541Z",
+  "started_at": "2026-11-02T15:34:53.307373Z",
+  "finished_at": "2026-11-02T15:34:53.470604Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -20,7 +20,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_out\\progress_class.tif",
+      "path": "./_test_cli_out/progress_class.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -37,7 +37,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\recovery_progress.tif",
+      "path": "./_test_cli_out/recovery_progress.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -54,7 +54,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_out\\reconstruction_params.json",
+      "path": "./_test_cli_out/reconstruction_params.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -82,7 +82,7 @@
     "n_total_pixels": 4096
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "post-disaster-reconstruction"
   },
   "error": null
